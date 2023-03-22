@@ -1,3 +1,3 @@
-module guia-0-AgusLacomi
+module guiaCero
 
 go 1.20
