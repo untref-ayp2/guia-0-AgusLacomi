@@ -19,4 +19,9 @@ func main() {
 	numero := 5
 	factorial := estructurasrepetitivas.PuntoUno(numero)
 	fmt.Printf("El factorial de %v es %v\n", numero, factorial)
+
+	a := 5
+	b := 2
+	producto := estructurasrepetitivas.PuntoDos(a, b)
+	fmt.Println("El producto entre", a, "y", b, "es", producto)
 }
