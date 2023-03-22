@@ -24,4 +24,7 @@ func main() {
 	b := 2
 	producto := estructurasrepetitivas.PuntoDos(a, b)
 	fmt.Println("El producto entre", a, "y", b, "es", producto)
+
+	primo := estructurasrepetitivas.PuntoTres(3)
+	fmt.Println("Its", primo, "that this number is prime")
 }
