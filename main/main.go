@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"guiaCero/arreglos"
 	"guiaCero/estructurasrepetitivas"
 	"guiaCero/funciones"
 )
@@ -27,4 +28,8 @@ func main() {
 
 	primo := estructurasrepetitivas.PuntoTres(3)
 	fmt.Println("Its", primo, "that this number is prime")
+
+	/*Arreglos */
+	sumaElementos := arreglos.PuntoUno([]int{-3, 5})
+	fmt.Println("La suma de todos los elementos del arreglo ingresado es", sumaElementos)
 }
