@@ -38,4 +38,10 @@ func main() {
 	sumaVectorial, productoEscalar := arreglos.PuntoDos(arregloUno, arregloDos)
 	fmt.Println("La suma vectorial entre", arregloUno, "y", arregloDos, "es:", sumaVectorial)
 	fmt.Println("El producto escalar entre", arregloUno, "y", arregloDos, "es:", productoEscalar)
+
+	arregloA := []int{3, 2, 1}
+	arregloB := []int{3, 5, 4, 6}
+	union, interseccion := arreglos.PuntoTres(arregloA, arregloB)
+	fmt.Println("La union entre los dos arreglos es:", union)
+	fmt.Println("La interseccion entre los dos arreglos es:", interseccion)
 }
