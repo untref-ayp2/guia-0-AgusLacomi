@@ -32,4 +32,10 @@ func main() {
 	/*Arreglos */
 	sumaElementos := arreglos.PuntoUno([]int{-3, 5})
 	fmt.Println("La suma de todos los elementos del arreglo ingresado es", sumaElementos)
+
+	arregloUno := []int{3, 0}
+	arregloDos := []int{5, 5}
+	sumaVectorial, productoEscalar := arreglos.PuntoDos(arregloUno, arregloDos)
+	fmt.Println("La suma vectorial entre", arregloUno, "y", arregloDos, "es:", sumaVectorial)
+	fmt.Println("El producto escalar entre", arregloUno, "y", arregloDos, "es:", productoEscalar)
 }
