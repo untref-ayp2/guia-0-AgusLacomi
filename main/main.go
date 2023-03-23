@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"guiaCero/arreglos"
 	"guiaCero/estructurasrepetitivas"
+	"guiaCero/figuras"
 	"guiaCero/funciones"
 	"guiaCero/punteros"
 )
@@ -54,4 +55,7 @@ func main() {
 	punteros.Swap(px, py)
 	fmt.Println("Swap de X", x)
 	fmt.Println("Swap de Y:", y)
+
+	/*Estructuras e Interfaces*/
+	figuras.PuntoDos()
 }
