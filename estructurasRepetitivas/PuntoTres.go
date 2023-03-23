@@ -10,13 +10,15 @@ package estructurasrepetitivas
  */
 func PuntoTres(numero int) bool {
 
-	primo := true
-
-	// Revisar
-
-	if numero%2 == 0 {
-		primo = false
+	if numero <= 1 {
+		return false
 	}
 
-	return primo
+	for i := 2; i <= numero; i++ {
+		if numero%i == 0 {
+			return false
+		}
+	}
+
+	return true
 }
