@@ -11,8 +11,8 @@ func PuntoUno(numero int) int {
 
 	factorial := 1
 
-	for i := 1; i < int(numero); i++ {
-		factorial += factorial * i
+	for i := 1; i < numero; i++ {
+		factorial *= i
 	}
 
 	return factorial
